@@ -1,0 +1,137 @@
+body
+{
+    background-color: #a7a7a7;
+}
+
+#contaier
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: #ADEAEA;
+}
+
+#headerL
+{
+    float:left;
+}
+
+#title
+
+{
+    float:left;
+    margin: 20px;
+    margin-left: 100px  ;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #white;
+
+}
+
+
+
+#menu
+{
+    background-color: #3F3F3F;
+    color: #D19275;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#slider
+{
+    width: 960px;
+    min-height: 100px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px ;
+
+}
+#content
+{
+
+    float: left;
+    padding: 40px;
+    width: 920px;
+    background-color: #dedede;
+    min-height: 300px;
+    text-align: justify;
+}
+
+#movies
+{
+    float:left;
+    width: 348px;
+    min-height: 340px;
+    padding: 20px;
+    text-align: center;
+    border-right: 2px dotted black;
+    background-color: lightgray;
+
+}
+
+#links
+{
+    padding: 10px;
+    float:left;
+    text-align: justify;
+    width: 590px;
+    min-height: 360px;
+    background-color: lightgray;
+
+
+}
+
+.social
+{
+    float:left;
+    min-height: 300px;
+    width: 540px;
+    text-align: center;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.fb
+{
+    float:left;
+}
+#footer
+{
+    clear:both;
+}
+
+.option
+{
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 19px;
+    padding: 10px;
+    color: white;
+    opacity: 0.8;
+    border-right: 2px dotted white;
+    text-align: ;
+    display:inline-block;
+
+}
+.option:hover
+{
+    background-color: #000000;
+    cursor: pointer;
+}
+
