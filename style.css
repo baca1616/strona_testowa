@@ -7,6 +7,11 @@ body
 
 }
 
+a{color: #E3C2C2;}
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: underline}
 #container
 {
     width: 100%;
@@ -40,6 +45,25 @@ body
 
 }
 
+#log
+{
+    font-size: 23px;
+    padding: 10px;
+    float: right;
+    text-align: right;
+    color: red;
+    margin-top: 20px ;
+
+}
+
+log a:hover
+{
+    background-color: #330000;
+}
+
+
+
+
 #menu
 {
     width: 100%;
@@ -72,6 +96,7 @@ body
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    min-height: 300px;
 
 
 }
@@ -79,6 +104,10 @@ body
 #links
 {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 }
 #html_course
 {
@@ -90,6 +119,8 @@ body
 #movies
 {
     float: left;
+    border-top: 3px solid    #f1fc1e;
+
 
 
 
@@ -103,6 +134,8 @@ body
     min-height: 200px;
     margin-left: auto;
     margin-right: auto;
+
+    border-top: 3px solid    #f1fc1e;
 
 
 
@@ -122,23 +155,18 @@ body
     width: 33.3%;
     float: left;
     height: 200px;
-}
-#fb:hover
-{
     background-color: blue;
 }
+
 
 #yt
 {
     width: 33.3%;
     height: 200px;
     float: left;
-}
-
-#yt:hover
-{
     background-color: red;
 }
+
 
 
 #tw
@@ -146,12 +174,11 @@ body
     width: 33.3%;
     height: 200px;
     float: left;
-}
-
-#tw:hover
-{
     background-color: #3095d3;
 }
+
+
+
 
 
 #footer
@@ -161,6 +188,8 @@ body
     background-color: #222222;
     font-size: 15px;
 }
+
+
 
 ol
 {
@@ -188,7 +217,7 @@ ol > li
     height: 40px;
     width: 150px;
     border-right: 1px dashed #C0C0C0;
-    
+
 }
 
 ol > li:first-child
@@ -196,7 +225,77 @@ ol > li:first-child
     border-left: 1px dashed #c0c0c0;
 }
 
-ol >li:hover
+
+ol > li >ul
 {
-    background-color: #e5e3e3;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+    display: none;
+
 }
+
+ol > li:hover > ul
+{
+    display: block;
+}
+
+ol > li >ul > li
+{
+    background-color: #fff6f2;
+    position: relative;
+    z-index: 100;
+    border-top: 1px dashed #3095d3;
+}
+
+ol > li >ul > li:hover
+{
+    background-color: #fcf6cf;
+}
+
+#form_log
+{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.p1
+{
+    font-size: 15px;
+    color: black;
+}
+
+.p2
+{
+    font-size: 13px;
+    padding: 30px;
+    margin-bottom: 90px;
+}
+
+.h_1
+{
+    font-size: 30px; ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
